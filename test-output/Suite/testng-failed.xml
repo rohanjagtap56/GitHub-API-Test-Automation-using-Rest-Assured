@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testScriptUsingTestNG.PostOperation">
+        <methods>
+          <include name="postOperation"/>
+        </methods>
+      </class> <!-- testScriptUsingTestNG.PostOperation -->
+      <class name="testScriptUsingTestNG.PatchOperation">
+        <methods>
+          <include name="patchOperation"/>
+        </methods>
+      </class> <!-- testScriptUsingTestNG.PatchOperation -->
+      <class name="testScriptUsingTestNG.DeleteOperation">
+        <methods>
+          <include name="deleteOperation"/>
+        </methods>
+      </class> <!-- testScriptUsingTestNG.DeleteOperation -->
+      <class name="testScriptUsingTestNG.GetOperation">
+        <methods>
+          <include name="getOperation"/>
+        </methods>
+      </class> <!-- testScriptUsingTestNG.GetOperation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
